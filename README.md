@@ -54,7 +54,7 @@ This project is **deployed on AWS**, ensuring high availability, security, and s
 - **S3 Bucket**: Stores original HR documents and processed text.
 - **Amazon Textract**: Extracts text from PDFs.
 - **AWS Lambda (Serverless Processing)**
-  - **Data Processing Lambda**: Converts PDFs to text.
+  - **Data Processing Lambda**: Converts raw files to PDFs and to text.
   - **Indexing Lambda**: Performs chunking & upserting into the Qdrant vector database.
   - **Backend Lambda**: Queries indexed data and generates answers.
 - **API Gateway**: Routes frontend queries to the backend.
