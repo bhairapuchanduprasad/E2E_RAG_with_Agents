@@ -1,0 +1,7 @@
+boto3
+fpdf
+python-pptx
+python-docx
+qdrant-client
+llama-index
+openai
