@@ -103,26 +103,6 @@ A **Streamlit UI** is hosted on **AWS EC2**, allowing employees to:
 - Docker Installed
 - AWS CLI Configured
 
-### **Installation**
-```sh
-git clone <your-repo-url>
-cd rag_pipeline
-pip install -r requirements.txt
-```
-
-### **Deploy Using AWS CDK**
-```sh
-cd infrastructure
-cdk bootstrap
-cdk deploy 
-```
-
-### **Run Locally**
-```sh
-python main.py
-```
-
----
 
 ## 📬 **Contributions**
 Contributions and feedback are welcome! Feel free to open an issue or submit a pull request.
